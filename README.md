@@ -18,7 +18,7 @@ Parameter 2: Title of the popover.
 Parameter 3: Html content of the popover.  
 Parameter 4: Direction of popover (top, bottom, right, or left).  
 
-The function attaches the popover function to all html tags with a `rel="popover"`!
+The function attaches the popover function to all html tags with a `rel="popover"` under the parent passed!
 
 # Sample code usage
     showPopover($('.parentDiv'), 'My Popover Title', '<p>My Popover Content</p>', 'right');
